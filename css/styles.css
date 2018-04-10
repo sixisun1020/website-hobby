@@ -1,0 +1,124 @@
+body {
+    font-family: 'Lato', 'Noto Sans Japanese', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;    margin: 0;
+    padding: 0;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.bg {
+    background: url('../img/header.jpg') center 0 no-repeat;
+    background-size: cover;
+    height: 800px;
+    position: relative;
+}
+
+.bg::before {
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+}
+
+.content {
+    padding-top: 300px;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+section {
+    margin-top: 100px;
+}
+
+section:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+.subtitle {
+    color: gray;
+}
+
+/* about */
+.item-about {
+    padding-bottom: 30px;
+}
+
+.img-circle {
+    height: 100px;
+    width: 100px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: #fed136;
+    border-radius: 50%;
+    position: relative;
+}
+
+.img-circle .icon {
+    color: #fcfcfc;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    font-size: 50px;    
+}
+
+.title-item {
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+/* hobbies */
+
+.img-sizing {
+    width: 100%;
+    height: auto;
+}
+
+.pull-right {
+    float: right;
+}
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.read-more {
+    color: darkgray;
+}
+
+.read-more:hover {
+    color: lightgray;
+    text-decoration: none;
+}
+
+/* contact */
+.twitter {
+    color: #55acee;
+}
+
+.facebook {
+    color: #315096;
+}
+
+.twitter:hover, .facebook:hover {
+    opacity: 0.8;
+}
+
+/* footer */
+
+footer {
+    color: white;
+    height: 30px;
+}
